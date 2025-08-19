@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BTS Fan page by Kakajan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">💜 BTS Fan Site by Kakajan</div>
+    <nav>
+      <a href="#members">Agzalar</a>
+      <a href="#news">Täzelikler</a>
+      <a href="#gallery">Galereýa</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>ARMY üçin ýörite BTS fan sahypa 💜</h1>
+    <p>Bu ýerde BTS agzalary, suratlar we soňky täzelikler bar.</p>
+  </section>
+
+  <!-- Members -->
+  <section id="members" class="members">
+    <h2>🎤 BTS Agzalary</h2>
+    <div class="grid">
+      <div class="card" onclick="showDetail('rm')"><img src="bts members/rm.jpg" alt="RM"><h3>RM</h3></div>
+      <div class="card" onclick="showDetail('jin')"><img src="bts members/jin.jpg" alt="Jin"><h3>Jin</h3></div>
+      <div class="card" onclick="showDetail('suga')"><img src="bts members/suga.jpg" alt="Suga"><h3>Suga</h3></div>
+      <div class="card" onclick="showDetail('jhope')"><img src="bts members/jhope.jpg" alt="J-Hope"><h3>J-Hope</h3></div>
+      <div class="card" onclick="showDetail('jimin')"><img src="bts members/jimin.jpg" alt="Jimin"><h3>Jimin</h3></div>
+      <div class="card" onclick="showDetail('v')"><img src="bts members/v.jpg" alt="V"><h3>V</h3></div>
+      <div class="card" onclick="showDetail('jk')"><img src="bts members/jungkook.jpg" alt="Jungkook"><h3>Jungkook</h3></div>
+    </div>
+  </section>
+
+  <!-- Member details -->
+  <section id="details">
+    <div id="rm" class="detail hidden"><h2>RM (Kim Namjoon)</h2><p>RM BTS toparynyň lideri we reperidir.</p></div>
+    <div id="jin" class="detail hidden"><h2>Jin (Kim Seokjin)</h2><p>Jin toparyň iň uly agzasydyr.</p></div>
+    <div id="suga" class="detail hidden"><h2>Suga (Min Yoongi)</h2><p>Suga prodýuser we reper hökmünde tanalýar.</p></div>
+    <div id="jhope" class="detail hidden"><h2>J-Hope (Jung Hoseok)</h2><p>J-Hope tans we rap bilen meşhurdyr.</p></div>
+    <div id="jimin" class="detail hidden"><h2>Jimin (Park Jimin)</h2><p>Jimin güýçli sesi we tanslary bilen tanalýar.</p></div>
+    <div id="v" class="detail hidden"><h2>V (Kim Taehyung)</h2><p>V özboluşly sesi we moda stili bilen tapawutlanýar.</p></div>
+    <div id="jk" class="detail hidden"><h2>Jungkook (Jeon Jungkook)</h2><p>Jungkook toparyň iň kiçi agzasydyr.</p></div>
+  </section>
+
+  <!-- News Slider -->
+  <section id="news" class="news">
+    <h2>📰 BTS Täzelikleri</h2>
+    <div class="slider">
+      <div class="slide active">BTS täze albom taýýarlap başlady!</div>
+      <div class="slide">Jungkook täze solo klibini çykardy.</div>
+      <div class="slide">RM halkara konferensiýa gatnaşdy.</div>
+      <div class="slide">BTS dünýä şowhunly konsert tura taýýar bolýar.</div>
+    </div>
+    <div class="controls">
+      <button onclick="prevSlide()">◀</button>
+      <button onclick="nextSlide()">▶</button>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <h2>📷 BTS Galereýa</h2>
+    <div class="grid">
+      <img src="gallery/BTS 1.jpg" alt="surat1">
+      <img src="gallery/BTS 2.jpg" alt="surat2">
+      <img src="gallery/BTS 3.jpg" alt="surat3">
+      <img src="gallery/BTS 4.jpg" alt="surat4">
+      <img src="gallery/BTS 5.jpg" alt="surat5">
+      <img src="gallery/BTS 6.jpg" alt="surat6">
+      <img src="gallery/BTS 7.jpg" alt="surat7">
+      <img src="gallery/BTS 8.jpg" alt="surat8">
+      <img src="gallery/BTS 9.jpg" alt="surat9">
+      <img src="gallery/BTS 10.jpg" alt="surat10">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BTS Fan Saýt — ARMY üçin döredildi 💜</p>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button id="topBtn" onclick="scrollTopFn()">⬆</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
