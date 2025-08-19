@@ -1,4 +1,4 @@
-// Member detail toggle
+// Member detail togglee
 function showDetail(id) {
   document.querySelectorAll(".detail").forEach(d => d.classList.add("hidden"));
   document.getElementById(id).classList.remove("hidden");
@@ -65,3 +65,4 @@ audioEl.addEventListener("ended", nextSong);
 
 // init
 loadSong(0);
+
